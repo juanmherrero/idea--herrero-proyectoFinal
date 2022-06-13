@@ -9,6 +9,9 @@
 	margin: 0;
 	padding: 0;
 }
+.disclaimer {
+	display: none;
+}
 /*ESTILOS BÁSICOS*/
 h1 {
 	text-align: center;
@@ -40,15 +43,6 @@ ul {
 ol {
 	font-family: 'Raleway', sans-serif;
 }
-
-/*LISTA HEADER ANTIGUA*/
-.listaMenu {
-	display: inline;
-}
-.listaHeader {
-	text-align: center;
-	color: white;
-}
 a {
 	text-decoration: none;
 	font-family: 'Raleway', sans-serif;
@@ -59,16 +53,17 @@ a {
 		color: black;
 	}
 }
-.footer {
+footer {
 	font-family: 'Raleway', sans-serif;
 	background-color: #07070A;
 	color: white;
 }
-.header {
+header {
 	font-family: 'Raleway', sans-serif;
 	top: 0px;
 	background-color: #07070A;
 	color: white;
+	padding-bottom: 25px;
 }
 main {
 	background-color: #cadbc0;
@@ -87,6 +82,7 @@ form {
 }
 .derechos {
 	text-align: center;
+	padding: 15px 0 25px 0;
 }
 .botDiv {
 	background-color: #0081A7;
@@ -94,7 +90,9 @@ form {
 .newsletter {
 	background-color: #07070A;
 	color: white;
+	text-align: center;
 	padding: 30px;
+	margin-top: 45px;
 }
 .contenedorUno {
 	text-align: center;
@@ -147,16 +145,10 @@ form {
 	display: inline;
 	margin-top: 15px;
 }
-.newsletter {
-	text-align: center;
-}
 .busLocal {
 	padding: 0 20% 0 20%;
 }
 .local {
-	text-align: center;
-}
-.formContacto {
 	text-align: center;
 }
 .inicioContacto {
@@ -180,10 +172,15 @@ fieldset {
 	width: 97%;
 	margin: auto;
 	transition-duration: 2s;
+	padding-top: 15px;
+	padding-bottom: 30px;
 }
 .img-fluid {
 	width: 100%;
 	height: auto;
+}
+.divCate {
+	padding-top: 60px;
 }
 /*ANIMACIONES IMAGENES*/
 .ani {
@@ -192,15 +189,14 @@ fieldset {
 		width: 80%;
 	}
 }
-
 .ani2 {
 	transition-duration: 1s;
 	&:hover {
 		width: 48%;
 	}
 }
-
 .formContacto{
+	text-align: center;
 	width:50%;
 	padding:16px;
 	border-radius:10px;
@@ -211,6 +207,7 @@ fieldset {
 		font-weight:bold;
 		display:inline-block;
 		margin-top: 8px;
+		
 	}
 	input[type="text"],
 	input[type="email"]{
@@ -219,7 +216,7 @@ fieldset {
 		border:1px solid #07070A;
 		border-radius:3px;
 		background-color:white;
-		margin:8px 15px 0 15px ;
+		margin:8px 15px 0 5% ;
 		display:inline-block;
 	}
 	input[type="submit"],
