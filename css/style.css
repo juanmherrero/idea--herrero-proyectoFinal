@@ -23,6 +23,9 @@ h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem; }
 
+.titulo {
+  padding-top: 15px; }
+
 p {
   font-family: 'Raleway', sans-serif;
   padding: 5px 20px 20px; }
@@ -144,8 +147,12 @@ form {
 .local {
   text-align: center; }
 
+.mapa {
+  padding-bottom: 15px; }
+
 .inicioContacto {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 15px; }
 
 .textoLista {
   margin: 35px; }
@@ -156,7 +163,8 @@ form {
   right: 15px; }
 
 .seccionUno {
-  text-align: justify; }
+  text-align: justify;
+  padding-top: 30px; }
 
 fieldset {
   border: none; }
@@ -175,6 +183,9 @@ fieldset {
 .divCate {
   padding-top: 60px; }
 
+.divProd {
+  padding-bottom: 20px; }
+
 /*ANIMACIONES IMAGENES*/
 .ani {
   transition-duration: 1s; }
@@ -192,6 +203,7 @@ fieldset {
   padding: 16px;
   border-radius: 10px;
   margin: auto;
+  margin-bottom: 30px;
   background-color: #0081A7; }
   .formContacto label {
     width: 50%;
@@ -201,11 +213,11 @@ fieldset {
   .formContacto input[type="text"],
   .formContacto input[type="email"] {
     width: 90%;
-    padding: 3px 10px;
+    padding: 3px 10px 15px;
     border: 1px solid #07070A;
     border-radius: 3px;
     background-color: white;
-    margin: 8px 15px 0 5%;
+    margin: 8px 5% 0 5%;
     display: inline-block; }
   .formContacto input[type="submit"],
   .formContacto input[type="reset"] {
