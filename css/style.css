@@ -1,5 +1,33 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Raleway&display=swap";
+/*MEDIAS QUERIES*/
+@media (max-width: 606px) {
+  .mapa {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .img {
+    width: 50%; }
+  .imgDos {
+    width: 50%; }
+  .tab {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .mob {
+    display: none; } }
+
+/*ANIMACIONES IMAGENES*/
+.ani {
+  transition-duration: 1s; }
+  .ani:hover {
+    width: 80%; }
+
+.ani2 {
+  transition-duration: 1s; }
+  .ani2:hover {
+    width: 48%; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -186,17 +214,6 @@ fieldset {
 .divProd {
   padding-bottom: 20px; }
 
-/*ANIMACIONES IMAGENES*/
-.ani {
-  transition-duration: 1s; }
-  .ani:hover {
-    width: 80%; }
-
-.ani2 {
-  transition-duration: 1s; }
-  .ani2:hover {
-    width: 48%; }
-
 .formContacto {
   text-align: center;
   width: 50%;
@@ -254,20 +271,3 @@ fieldset {
     resize: none;
     display: block;
     margin-top: 15px; }
-
-/*MEDIAS QUERIES*/
-@media (max-width: 606px) {
-  .mapa {
-    display: none; } }
-
-@media (max-width: 767px) {
-  .img {
-    width: 50%; }
-  .imgDos {
-    width: 50%; }
-  .tab {
-    display: none; } }
-
-@media (min-width: 768px) {
-  .mob {
-    display: none; } }

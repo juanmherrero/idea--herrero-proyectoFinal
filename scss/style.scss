@@ -1,7 +1,7 @@
 
 
 @import "https://fonts.googleapis.com/css2?family=Raleway&display=swap";
-
+@import "_variables","mediasQ","animaciones";
 
 
 
@@ -58,18 +58,18 @@ a {
 }
 footer {
 	font-family: 'Raleway', sans-serif;
-	background-color: #07070A;
+	background-color: $colorC;
 	color: white;
 }
 header {
 	font-family: 'Raleway', sans-serif;
 	top: 0px;
-	background-color: #07070A;
+	background-color: $colorC;
 	color: white;
 	padding-bottom: 25px;
 }
 main {
-	background-color: #cadbc0;
+	background-color: $colorA;
 }
 form {
 	font-family: 'Raleway', sans-serif;
@@ -88,10 +88,10 @@ form {
 	padding: 15px 0 25px 0;
 }
 .botDiv {
-	background-color: #0081A7;
+	background-color: $colorB;
 }
 .newsletter {
-	background-color: #07070A;
+	background-color: $colorC;
 	color: white;
 	text-align: center;
 	padding: 30px;
@@ -193,19 +193,6 @@ fieldset {
 .divProd {
 	padding-bottom: 20px;
 }
-/*ANIMACIONES IMAGENES*/
-.ani {
-	transition-duration: 1s;
-	&:hover {
-		width: 80%;
-	}
-}
-.ani2 {
-	transition-duration: 1s;
-	&:hover {
-		width: 48%;
-	}
-}
 .formContacto{
 	text-align: center;
 	width:50%;
@@ -213,19 +200,18 @@ fieldset {
 	border-radius:10px;
 	margin:auto;
 	margin-bottom: 30px;
-	background-color:#0081A7;
+	background-color:$colorB;
 	label {
 		width:50%;
 		font-weight:bold;
 		display:inline-block;
 		margin-top: 8px;
-		
 	}
 	input[type="text"],
 	input[type="email"]{
 		width:90%;
 		padding:3px 10px 15px;
-		border:1px solid #07070A;
+		border:1px solid $colorC;
 		border-radius:3px;
 		background-color:white;
 		margin:8px 5% 0 5% ;
@@ -236,11 +222,11 @@ fieldset {
 		width:90%;
 		padding:8px 16px;
 		margin-top:5%;
-		border:1px solid #07070A;
+		border:1px solid $colorC;
 		border-radius:5px;
 		display:inline-block;
 		color:white;
-		background-color:#07070A;
+		background-color:$colorC;
 		
 	}
 	input[type="submit"]:hover{
@@ -252,14 +238,13 @@ fieldset {
 		padding:8px 16px;
 		margin-top:5%;
 		margin-left: 5%;
-		border:1px solid #07070A;
+		border:1px solid $colorC;
 		border-radius:5px;
 		display:inline-block;
 		color:white;
-		background-color:#07070A;
+		background-color:$colorC;
 	}
 	textarea {
-		
 		width:90%;
 		height:100px;
 		border:1px solid white;
@@ -267,31 +252,9 @@ fieldset {
 		background-color:white;			
 		margin-top:8px;
 		margin-left: 5%;
-		border:1px solid #07070A;
+		border:1px solid $colorC;
 		resize:none;
 		display:block;
 		margin-top: 15px;
-	}
-}
-/*MEDIAS QUERIES*/
-@media (max-width:606px) {
-	.mapa {
-		display: none;
-	}
-}
-@media (max-width:767px) {
-	.img {
-		width: 50%;
-	}
-	.imgDos {
-		width: 50%;
-	}
-	.tab {
-		display: none;
-	}
-}
-@media (min-width:768px) {
-	.mob {
-		display: none;
 	}
 }
