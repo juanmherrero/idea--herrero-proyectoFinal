@@ -9,13 +9,98 @@
   .img {
     width: 50%; }
   .imgDos {
-    width: 50%; }
+    width: 70%; }
   .tab {
     display: none; } }
 
 @media (min-width: 768px) {
   .mob {
     display: none; } }
+
+footer {
+  font-family: "Raleway", sans-serif;
+  background-color: #07070A;
+  color: white; }
+
+header {
+  font-family: "Raleway", sans-serif;
+  top: 0px;
+  background-color: #07070A;
+  color: white;
+  padding-bottom: 25px; }
+
+main {
+  background-color: #cadbc0; }
+
+.derechos {
+  text-align: center;
+  padding: 15px 0 25px 0; }
+
+.botDiv {
+  background-color: #0081A7;
+  padding: 20px; }
+
+.disclaimer {
+  display: none; }
+
+/*NAV BUSCAR*/
+.buscar {
+  text-align: right; }
+
+/*NEWSLETTER*/
+.newsletter {
+  background-color: #07070A;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 45px; }
+
+/*PRODUCTOS Y GÉNEROS*/
+.gen {
+  text-align: center; }
+
+.texto {
+  text-align: center;
+  margin-top: 15px;
+  display: inline; }
+
+.divCate {
+  padding-top: 60px; }
+
+/*PRODUCTOS INDEX*/
+.prod {
+  text-align: center; }
+
+.textoDos {
+  text-align: center;
+  display: inline;
+  margin-top: 15px; }
+
+.divProd {
+  padding-bottom: 20px; }
+
+/*SECCIONES SOBRE NOSOTROS*/
+.busLocal {
+  padding: 0 20% 0 20%; }
+
+.local {
+  text-align: center; }
+
+.mapa {
+  padding-bottom: 15px; }
+
+/*BOTON INICIO CONTACTO*/
+.inicioContacto {
+  text-align: center;
+  padding-bottom: 15px; }
+
+/*SECCION FAQS*/
+.seccionUno {
+  text-align: justify;
+  padding-top: 30px; }
+
+.row {
+  margin: 0; }
 
 /*ANIMACIONES IMAGENES*/
 .ani {
@@ -28,105 +113,14 @@
   .ani2:hover {
     width: 48%; }
 
-* {
-  margin: 0;
-  padding: 0; }
-
-.disclaimer {
-  display: none; }
-
-/*ESTILOS BÁSICOS*/
-h1 {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2rem; }
-
-h2 {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2rem; }
-
-h3 {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1rem; }
-
-.titulo {
-  padding-top: 15px; }
-
-p {
-  font-family: 'Raleway', sans-serif;
-  padding: 5px 20px 20px; }
-
-ul {
-  list-style-type: none;
-  font-family: 'Raleway', sans-serif; }
-
-/*LISTA FAQS*/
-.listPunt {
-  list-style-type: circle; }
-
-ol {
-  font-family: 'Raleway', sans-serif; }
-
-a {
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif; }
-  a:link {
-    color: black; }
-  a:visited {
-    color: black; }
-
-footer {
-  font-family: 'Raleway', sans-serif;
-  background-color: #07070A;
-  color: white; }
-
-header {
-  font-family: 'Raleway', sans-serif;
-  top: 0px;
-  background-color: #07070A;
-  color: white;
-  padding-bottom: 25px; }
-
-main {
-  background-color: #cadbc0; }
-
-form {
-  font-family: 'Raleway', sans-serif; }
-
-.buscar {
-  text-align: right; }
-
+/*LOGOS*/
 .logoPral {
   text-align: center; }
 
 .logoChico {
   text-align: center; }
 
-.derechos {
-  text-align: center;
-  padding: 15px 0 25px 0; }
-
-.botDiv {
-  background-color: #0081A7; }
-
-.newsletter {
-  background-color: #07070A;
-  color: white;
-  text-align: center;
-  padding: 30px;
-  margin-top: 45px; }
-
-.contenedorUno {
-  text-align: center; }
-
-.contenedorDos {
-  text-align: center; }
-
-.gen {
-  text-align: center; }
-
+/*IMG PRODUCTOS*/
 .img {
   display: inline;
   width: 90%;
@@ -134,69 +128,20 @@ form {
   text-align: center;
   margin-top: 10px; }
 
-.contenedorTres {
-  text-align: center; }
-
-.row {
-  margin: 0; }
-
-.texto {
-  text-align: center;
-  margin-top: 15px;
-  display: inline; }
-
-.video {
-  text-align: center; }
-
-.contenedorCuatro {
-  text-align: center; }
-
-.prod {
-  text-align: center; }
-
 .imgDos {
   display: inline;
-  width: 60%;
+  width: 70%;
   height: auto;
   text-align: center;
   margin-top: 10px; }
 
-.contenedorCinco {
-  text-align: center; }
-
-.textoDos {
-  text-align: center;
-  display: inline;
-  margin-top: 15px; }
-
-.busLocal {
-  padding: 0 20% 0 20%; }
-
-.local {
-  text-align: center; }
-
-.mapa {
-  padding-bottom: 15px; }
-
-.inicioContacto {
-  text-align: center;
-  padding-bottom: 15px; }
-
-.textoLista {
-  margin: 35px; }
-
+/*LOGO WSP*/
 .mensajeWsp {
   position: fixed;
   bottom: 35px;
   right: 15px; }
 
-.seccionUno {
-  text-align: justify;
-  padding-top: 30px; }
-
-fieldset {
-  border: none; }
-
+/*CAROUSEL*/
 .carousel {
   width: 97%;
   margin: auto;
@@ -208,11 +153,8 @@ fieldset {
   width: 100%;
   height: auto; }
 
-.divCate {
-  padding-top: 60px; }
-
-.divProd {
-  padding-bottom: 20px; }
+form {
+  font-family: "Raleway", sans-serif; }
 
 .formContacto {
   text-align: center;
@@ -271,3 +213,55 @@ fieldset {
     resize: none;
     display: block;
     margin-top: 15px; }
+
+/*ESTILOS BÁSICOS*/
+h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem; }
+
+h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem; }
+
+h3 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem; }
+
+.titulo {
+  padding-top: 15px; }
+
+p {
+  font-family: "Raleway", sans-serif;
+  padding: 5px 20px 20px; }
+
+ul {
+  list-style-type: none;
+  font-family: "Raleway", sans-serif; }
+
+/*LISTA FAQS*/
+.listPunt {
+  list-style-type: circle; }
+
+ol {
+  font-family: "Raleway", sans-serif; }
+
+a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif; }
+  a:link {
+    color: black; }
+  a:visited {
+    color: black; }
+
+.textoLista {
+  margin: 35px; }
+
+fieldset {
+  border: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
