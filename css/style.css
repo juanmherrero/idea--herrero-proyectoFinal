@@ -9,7 +9,7 @@
   .img {
     width: 50%; }
   .imgDos {
-    width: 70%; }
+    width: 60%; }
   .tab {
     display: none; } }
 
@@ -111,7 +111,7 @@ main {
 .ani2 {
   transition-duration: 1s; }
   .ani2:hover {
-    width: 48%; }
+    width: 60%; }
 
 /*LOGOS*/
 .logoPral {
